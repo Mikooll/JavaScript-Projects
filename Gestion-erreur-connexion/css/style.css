@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    border-top : 2px solid #ccc;
+    border-bottom : 2px solid #ccc;
+    color: #00d1b2;
+    background-color: #fff;
+}
+
+a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.5rem 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    display: flex;
+}
+
+#login {
+    width: 50%;
+    margin: 3rem auto;
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    background-color: #f1f1f1;
+    border-top: 3px solid #00d1b2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #aaa;
+}
+
+#form-title {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: #00d1b2;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.field-input {
+    display : flex;
+    width: 100%;
+    height: 2rem;
+    font-size: 1em;
+    padding: 0.3rem;
+}
+
+.field {
+    margin: 0 1rem 1rem 1rem;
+    line-height: 1.2em;
+}
+
+.field-label {
+    font-weight: 700;
+    color: #000;
+}
+
+.field-info {
+    font-size: .7em;
+    color: #999;
+}
+
+.redError {
+    background-color: #ff3860;
+    color: white;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 0 1rem 2rem 1rem;
+    border-radius: 4px;
+}
+
+#login-submit {
+    background-color : #00d1b2;
+    color: white;
+    border: none;
+    padding : 0.5rem;
+    font-size: 1em;
+    margin: 0 1rem 1rem 75%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 4rem;
+    padding: 0.3rem;
+    font-size: small;
+}
+
+.greenBorder {
+    border: 1px solid #00d1b2;
+}
+
+.redBorder {
+    border: 1px solid #ff3860;
+}
